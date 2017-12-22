@@ -57,6 +57,8 @@ function generateMenu(list) {
     content += "</ul>";
     return content;
 }
+function objIsEmpty(obj) {
+}
 var navMenuList = document.querySelector(".menu");
 if (navMenuList) {
     navMenuList.innerHTML = generateMenu(menuList);

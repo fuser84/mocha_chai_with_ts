@@ -61,6 +61,10 @@ function generateMenu(list: IMenuItem[]): string {
     return content;
 }
 
+function objIsEmpty(obj: ){
+
+}
+
 let navMenuList: HTMLDivElement | null = document.querySelector(".menu");
 if (navMenuList) {
     navMenuList.innerHTML = generateMenu(menuList);
