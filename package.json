@@ -1,0 +1,40 @@
+{
+  "name": "ts-last-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "npm": "^5.6.0",
+    "nyc": "^11.4.1",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45"
+  },
+  "scripts": {
+    "test": "nyc mocha -r ts-node/register ./*.spec.ts"
+  },
+  "nyc": {
+    "exclude":[
+    "./*spec.ts"
+    ],
+    "extension":[
+      ".ts"
+    ],
+    "require":[
+    "ts-node/register"
+    ],
+    "reporter":[
+      "text",
+      "text-summary"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
