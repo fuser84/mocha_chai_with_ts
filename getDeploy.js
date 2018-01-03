@@ -43,4 +43,3 @@ function getDeploy(a) {
 }
 exports.getDeploy = getDeploy;
 console.log(getDeploy("s1ta$%r3t 2 hel^low"));
-//# sourceMappingURL=getDeploy.js.map

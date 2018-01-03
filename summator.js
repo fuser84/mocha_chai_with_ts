@@ -15,4 +15,3 @@ function summator(...rest) {
 exports.summator = summator;
 let result = summator("5", "55", "5");
 console.log(result);
-//# sourceMappingURL=summator.js.map

@@ -17,4 +17,3 @@ function getUnique(...arr) {
 exports.getUnique = getUnique;
 let p = getUnique(1, "hi", 8, 8, 50, 50, "hi");
 console.log(p);
-//# sourceMappingURL=getUnique.js.map

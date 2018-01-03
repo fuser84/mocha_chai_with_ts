@@ -15,4 +15,3 @@ exports.isInArray = isInArray;
 // let res = isInArray(["hello", 2, 3, 4], 4, "hello", 3 );
 //
 // console.log(res);
-//# sourceMappingURL=isInArray.js.map
